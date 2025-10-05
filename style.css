@@ -1,0 +1,311 @@
+
+.appointment-btn {
+  display: inline-block;
+  width: 380px;
+height: 60px;
+top: 20px;
+left: 20px;
+border-radius: 14px;
+gap: 10px;
+opacity: 1;
+padding-top: 27px;
+padding-right: 20px;
+padding-bottom: 27px;
+padding-left: 20px;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: 0.5px;
+    
+    background-color: darkgreen;
+    color: white;
+   
+}
+
+.appointment-btn:hover {
+width: 380px;
+height: 60px;
+top: 143px;
+left: 20px;
+border-radius: 14px;
+gap: 10px;
+opacity: 1;
+padding-top: 27px;
+padding-right: 20px;
+padding-bottom: 27px;
+padding-left: 20px;
+
+    transform: translateY(-3px);
+    background-color: orangered;
+}
+
+.appointment-btn:active {
+  width: 380px;
+height: 60px;
+top: 277px;
+left: 20px;
+border-radius: 14px;
+gap: 10px;
+opacity: 1;
+padding-top: 27px;
+padding-right: 20px;
+padding-bottom: 27px;
+padding-left: 20px;
+
+    transform: translateY(-1px);
+     background-color: rgba(111, 140, 95, 1);
+   color: white;
+}
+
+/* Кнопка отправки формы */
+.submit-btn,
+.form-submit {
+    display: inline-block;
+    width: 484px;
+height: 78px;
+top: 20px;
+left: 20px;
+border-radius: 14px;
+gap: 10px;
+opacity: 1;
+padding-top: 27px;
+padding-right: 20px;
+padding-bottom: 27px;
+padding-left: 20px;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    
+    background-color: orangered;
+    color: white;
+}
+
+.submit-btn:hover,
+.form-submit:hover {
+  width: 484px;
+height: 78px;
+top: 150px;
+left: 20px;
+border-radius: 14px;
+gap: 10px;
+opacity: 1;
+padding-top: 27px;
+padding-right: 20px;
+padding-bottom: 27px;
+padding-left: 20px;
+ transform: translateY(-3px);
+    background-color: darkgreen;
+}
+
+.submit-btn:active,
+.form-submit:active {
+  width: 484px;
+height: 78px;
+top: 280px;
+left: 20px;
+border-radius: 14px;
+gap: 10px;
+opacity: 1;
+padding-top: 27px;
+padding-right: 20px;
+padding-bottom: 27px;
+padding-left: 20px;
+  transform: translateY(-1px);
+   background-color: white;
+   color: orangered;
+}
+
+/* Кнопка "ВСЕ УСЛУГИ" */
+.all-services-btn {
+    display: inline-block;
+    width: 350px;
+height: 60px;
+top: 20px;
+left: 20px;
+border-radius: 14px;
+gap: 10px;
+opacity: 1;
+padding-top: 18px;
+padding-right: 20px;
+padding-bottom: 18px;
+padding-left: 20px;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    background-color: orangered;
+    color: white;
+}
+
+.all-services-btn:hover {
+  width: 350px;
+height: 60px;
+top: 147px;
+left: 20px;
+border-radius: 14px;
+gap: 10px;
+opacity: 1;
+padding-top: 18px;
+padding-right: 20px;
+padding-bottom: 18px;
+padding-left: 20px;
+
+    transform: translateY(-3px);
+    background: rgba(111, 140, 95, 1);
+    color: white;
+}
+
+.all-services-btn:active {
+  width: 350px;
+height: 60px;
+top: 282px;
+left: 20px;
+border-radius: 14px;
+gap: 10px;
+opacity: 1;
+padding-top: 18px;
+padding-right: 20px;
+padding-bottom: 18px;
+padding-left: 20px;
+
+    transform: translateY(-1px);
+    background-color: white;
+   color: orangered;
+}
+
+/* Кнопка в футере - ЗАПИСАТЬСЯ НА ПРИЕМ */
+.footer-appointment-btn {
+    display: inline-block;
+    width: 484px;
+height: 78px;
+top: 20px;
+left: 20px;
+border-radius: 14px;
+gap: 10px;
+opacity: 1;
+padding-top: 27px;
+padding-right: 20px;
+padding-bottom: 27px;
+padding-left: 20px;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    background-color: orangered;
+    color: white;
+    
+}
+
+.footer-appointment-btn:hover {
+  width: 484px;
+height: 78px;
+top: 150px;
+left: 20px;
+border-radius: 14px;
+gap: 10px;
+opacity: 1;
+padding-top: 27px;
+padding-right: 20px;
+padding-bottom: 27px;
+padding-left: 20px;
+
+    transform: translateY(-3px);
+    background-color: darkgreen;
+    color: white;
+}
+
+.footer-appointment-btn:active {
+  width: 484px;
+height: 78px;
+top: 280px;
+left: 20px;
+border-radius: 14px;
+gap: 10px;
+opacity: 1;
+padding-top: 27px;
+padding-right: 20px;
+padding-bottom: 27px;
+padding-left: 20px;
+
+    transform: translateY(-1px);
+   background-color: white;
+   color: orangered;
+}
+
+/* Специальные стили для кнопок с акциями */
+.promotion-btn {
+    display: inline-block;
+width: 46px;
+height: 46px;
+top: 20px;
+left: 20px;
+opacity: 1;
+
+    border: none;
+    border-radius: 12px;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+    background-color:darkgreen ;
+    color:white;
+   
+}
+
+.promotion-btn:hover {
+  width: 46px;
+height: 46px;
+top: 83px;
+left: 20px;
+opacity: 1;
+
+    transform: translateY(-3px);
+    background-color: orangered;
+    color: white;
+}
+
+.promotion-btn:active {
+  width: 46px;
+height: 46px;
+top: 146px;
+left: 20px;
+opacity: 1;
+
+    transform: translateY(-1px);
+    background-color: white;
+    color: orangered;
+}
+
+
+p1{
+    color: darkgreen;
+ }
