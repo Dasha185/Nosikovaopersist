@@ -1,4 +1,44 @@
+header{
+height: 108px;
+/* Автолейаут */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 30px 20px 30px 20px;
+border-radius: 0px 0px 30px 30px;
+background: var(--white, rgba(255, 255, 255, 1));
+}
 
+.Доктор-тома{
+height: 1000px;
+  background:linear-gradient(270.00deg, rgba(255, 181, 0, 1),rgba(255, 134, 5, 1)), 
+  url('/картинки/sharpei\ 1\ \(1\).jpg') center/cover; 
+  padding: 4rem 2rem;
+  text-align: center;
+}
+h1{
+width: 827px;
+height: 96px;
+color: var(--white, rgba(255, 255, 255, 1));
+font-family: Onest;
+font-size: 56px;
+font-weight: 400;
+line-height: 67px;
+letter-spacing: 0px;
+}
+
+.text1{
+  /* Полный спектр услуг: от диагностики и лечения, до медицинского сопровождения питомцев разного вида и возраста */
+width: 521px;
+height: 96px;
+color:rgba(250, 248, 247, 0.9);
+font-family: Onest;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0px;
+}
 .appointment-btn {
   display: inline-block;
   width: 380px;
@@ -58,37 +98,240 @@ padding-top: 27px;
 padding-right: 20px;
 padding-bottom: 27px;
 padding-left: 20px;
-
-    transform: translateY(-1px);
+transform: translateY(-1px);
      background-color: rgba(111, 140, 95, 1);
    color: white;
 }
+.акции-декабря{
+ width: 1200;
+height: 580;
+top: 918px;
+opacity: 1;
+border-radius: 20px;
+padding-top: 40px;
+padding-right: 20px;
+padding-bottom: 70px;
+padding-left: 20px;
+gap: 30px;
+box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
+background: var(--white, rgba(255, 255, 255, 1));
+}
+.image-text-container{
+    display: inline-block;
+  background: url('/картинки/item.jpg') left no-repeat;
+width: 380px;
+height: 394px;
+gap: 58;
+padding: 10px 0px 30px 20px;
+border-radius: 20px;
+}
+.image-text-container2{
+    display: inline-block;
+  background: url('/картинки/item\ \(1\).jpg') center no-repeat;
+  background-position: center;
+  width: 380px;
+height: 394px;
+gap: 30;
+padding: 10px 0px 30px 20px;
+border-radius: 20px;
+}
+.image-text-container3{
+  display: inline-block;
+  background: url('/картинки/item\ \(2\).jpg') right no-repeat;
+  /* item */
+width: 380px;
+height: 394px;
+/* Автолейаут */
+gap: 30;
+padding: 10px 0px 30px 20px;
+border-radius: 20px;
+}
+.about{
+width: 90px;
+height: 24px;
+color: rgba(250, 248, 247, 0.9);
+font-family: Onest;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: center;
+ }
+ .preim{
+display: ruby-text-container;
+/* content */
+width: 568px;
+height: 360px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 40;
+color:rgba(255, 255, 255, 1);
+ }
+ p3{
+  /* Наша клиника открылась в 2023 году. Специалисты клиники уделяют особое внимание профилактике хронических заболеваний и вакцинации */
+width: 568px;
+height: 128px;
+color:rgba(250, 248, 247, 0.9);
 
+font-family: Onest;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: left;
+ }
+ .advantage-item1{
+  background: url('/картинки/сard.jpg') no-repeat;
+width: 380px;
+height: 450px;
+display: inline-block;
+padding: 30px 20px 30px 20px;
+border-radius: 20px;
+}
+ .advantage-item2{
+  background: url('/картинки/сard\ \(1\).jpg') no-repeat;
+display: inline-block;
+width: 770px;
+height: 450px;
+padding: 30px 20px 30px 20px;
+border-radius: 20px;
+ }
+  .advantage-item3{
+    background: url('/картинки/сard\ \(2\).jpg') no-repeat;
+    display: inline-flex;
+    /* сard */
+width: 380px;
+height: 450px;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 30px 20px 30px 20px;
+border-radius: 20px;
+  }
+   .advantage-item4{
+    background: url('/картинки/сard\ \(3\).jpg') no-repeat;
+/* сard */
+width: 380px;
+height: 450px;
+/* Автолейаут */
+display: inline-flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 30px 20px 30px 20px;
+border-radius: 20px;
+ }
+ .advantage-item5{
+  background: url('/картинки/сard\ \(4\).jpg') no-repeat;
+width: 380px;
+height: 450px;
+display: inline-flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 30px 20px 30px 20px;
+border-radius: 20px;
+}
+.advantage-item6{
+  background: url('/картинки/сard\ \(5\).jpg') no-repeat;
+  display: inline-flex;
+width: 770px;
+height: 450px;
+padding: 30px 20px 30px 20px;
+border-radius: 20px;
+}
+.advantage-item7{
+background: url('/картинки/сard\ \(6\).jpg') no-repeat;
+/* сard */
+width: 380px;
+height: 450px;
+/* Автолейаут */
+display: inline-flex;
+padding: 30px 20px 30px 20px;
+border-radius: 20px;
+}
+.Вызов-врача-на-дом{
+  background: url('/картинки/98fe77bf75c042f296dfeb9e936f01fd4d544ea4-_1_.jpg') no-repeat;
+background-size: contain;
+width: 1160px;
+height: 922px;
+top: 3588px;
+left: 20px;
+display:block;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 10;
+padding: 80px;
+  text-align: right;
+}
+.text2{
+width: 484px;
+height: 142px;
+
+gap: 20;
+  text-align: right;
+
+h2{
+  /* Вызов врача на дом */
+width: 484px;
+height: 58px;
+color: rgba(255, 255, 255, 1);
+font-family: Onest;
+font-size: 48px;
+letter-spacing: 0px;
+  text-align: right;
+}
+p{
+  /* Вашему питомцу требуется неотложная помощь? Приедем в течение 40 минут! */
+width: 482px;
+height: 64px;
+color: rgba(255, 255, 255, 1);
+font-family: Onest;
+font-size: 24px;
+letter-spacing: 0px;
+align-items: right;
+}
+}
+input{
+  float: right;
+   clear: both;
+width: 484px;
+height: 78px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: right;
+gap: 10;
+padding: 27px 20px 27px 20px;
+box-sizing: border-box;
+border: 1px solid var(--white, rgba(255, 255, 255, 1));
+border-radius: 14px;
+}
 /* Кнопка отправки формы */
 .submit-btn,
 .form-submit {
     display: inline-block;
-    width: 484px;
-height: 78px;
-top: 20px;
-left: 20px;
-border-radius: 14px;
-gap: 10px;
+width: 484px;
+height: 292px;
+gap: 20px;
 opacity: 1;
+
+border-radius: 14px;
 padding-top: 27px;
 padding-right: 20px;
 padding-bottom: 27px;
 padding-left: 20px;
-    border: none;
-    border-radius: 12px;
-    font-family: 'Arial', sans-serif;
+   font-family: 'Arial', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    text-transform: uppercase;
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-top: 10px;
+
     
     background-color: orangered;
     color: white;
@@ -96,8 +339,8 @@ padding-left: 20px;
 
 .submit-btn:hover,
 .form-submit:hover {
-  width: 484px;
-height: 78px;
+width: 484px;
+height: 292px;
 top: 150px;
 left: 20px;
 border-radius: 14px;
@@ -113,8 +356,8 @@ padding-left: 20px;
 
 .submit-btn:active,
 .form-submit:active {
-  width: 484px;
-height: 78px;
+width: 484px;
+height: 292px;
 top: 280px;
 left: 20px;
 border-radius: 14px;
@@ -128,7 +371,81 @@ padding-left: 20px;
    background-color: white;
    color: orangered;
 }
+.Услуги{
+  /* services */
+width: 1160px;
+height: 745px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 60;
+color: rgba(255, 255, 255, 1);
+}
+.ysl{
+  /* caption+title */
+width: 1160px;
+height: 207px;
+/* Автолейаут */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 291;
+h2{
+  /* Мы предоставляем */
+width: 469px;
+height: 58px;
+font-family: Onest;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0px;
+text-align: left;
+}
+}
+.инстр{
+  display: inline-block;
+  background: url('/картинки/Services.jpg') no-repeat;
+width: 283px;
+height: 282px;
 
+padding: 30px 10px 20px 20px;
+border-radius: 20px;
+backdrop-filter: blur(18px);
+} 
+.исследования{
+  display: inline-block;
+  background: url('/картинки/Services\ \(1\).jpg') no-repeat;
+width: 283px;
+height: 282px;
+display: flex;
+
+padding: 30px 10px 20px 20px;
+border-radius: 20px;
+backdrop-filter: blur(18px);
+}
+.хирургия{
+  display: inline-block;
+  background: url('/картинки/Services\ \(2\).jpg') no-repeat;
+width: 283px;
+height: 282px;
+
+padding: 30px 10px 20px 20px;
+border-radius: 20px;
+backdrop-filter: blur(18px);
+}
+.Теапия{
+  display: inline-block;
+  background: url('/картинки/Services\ \(3\).jpg') no-repeat;
+width: 283px;
+height: 282px;
+
+padding: 30px 10px 20px 20px;
+border-radius: 20px;
+backdrop-filter: blur(18px);
+}
 /* Кнопка "ВСЕ УСЛУГИ" */
 .all-services-btn {
     display: inline-block;
@@ -260,6 +577,15 @@ padding-left: 20px;
 
 /* Специальные стили для кнопок с акциями */
 .promotion-btn {
+  /* ButtonRight */
+width: 46px;
+height: 46px;
+/* Автолейаут */
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+
+
     display: inline-block;
 width: 46px;
 height: 46px;
@@ -305,48 +631,9 @@ opacity: 1;
     color: orangered;
 }
 
-logo{
-width: 242.56px;
-height: 69.89px; 
-Y : -14.39px;
-X : 2.61px;
-padding-top: -14.39px;
-padding-left: 2.61px;
-}
-h1{
-width: 827px;
-height: 96px;
-color: var(--white, rgba(255, 255, 255, 1));
-font-family: Onest;
-font-size: 56px;
-font-weight: 400;
-line-height: 67px;
-letter-spacing: 0px;
-text-align: center;
-}
-.Доктор-тома{
-  background-color:orange ;
-  background-image: url(C:\Users\Nosikovaopersist\Nosikovaopersist\sharpei\1.jpg);
-}
-.text1{
-  /* Полный спектр услуг: от диагностики и лечения, до медицинского сопровождения питомцев разного вида и возраста */
-width: 521px;
-height: 96px;
-color: var(--white 90%, rgba(250, 248, 247, 0.9));
 
-font-family: Onest;
-font-size: 24px;
-font-weight: 400;
-line-height: 29px;
-letter-spacing: 0px;
-text-align: center;
-font-family: Onest;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
-letter-spacing: 0px;
-text-align: center;
-}
+
+
 p1{
 width: 133px;
 height: 25px;
@@ -358,74 +645,8 @@ line-height: 22px;
 letter-spacing: 0px;
 text-align: center;
  }
- .image-text-container{
-width: 341px;
-height: 64px;
-color: var(--white 90%, rgba(250, 248, 247, 0.9));
-font-family: Onest;
-font-size: 24px;
-font-weight: 400;
-line-height: 29px;
-letter-spacing: 0px;
-text-align: left;
-background-image: url();
- }
- .text-overlay2{
-width: 341px;
-height: 96px;
-  color: var(--white 90%, rgba(250, 248, 247, 0.9));
-font-family: Onest;
-font-size: 24px;
-font-weight: 400;
-line-height: 29px;
-letter-spacing: 0px;
-text-align: left;
-background-image: url();
- }
- .image-text-container3{
-  /* Каждую пятницу стерилизация кошки от 2250₽, вместо 3500₽ */
-width: 341px;
-height: 96px;
-color: var(--white 90%, rgba(250, 248, 247, 0.9));
-
-font-family: Onest;
-font-size: 24px;
-font-weight: 400;
-line-height: 29px;
-letter-spacing: 0px;
-text-align: left;
-background-image: url();
- }
- .info{
-  /* Desktop */
-width: 1200px;
-height: 7880px;
-background: var(--green, rgba(73, 105, 55, 1));
- }
-
- .about{
-width: 90px;
-height: 24px;
-color: var(--white 90%, rgba(250, 248, 247, 0.9));
-font-family: Onest;
-font-size: 18px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0px;
-text-align: center;
- }
- .text2{
-  /* Страсть к профессии */
-width: 526px;
-height: 58px;
-color: var(--white, rgba(255, 255, 255, 1));
-font-family: Onest;
-font-size: 48px;
-font-weight: 700;
-line-height: 58px;
-letter-spacing: 0px;
-text-align: left;
- }
+ 
+ 
  p2{
   /* и забота о животных— */
 width: 529px;
@@ -438,48 +659,4 @@ font-weight: 400;
 line-height: 60px;
 letter-spacing: 0%;
 text-align: left;
- }
- p3{
-  /* Наша клиника открылась в 2023 году. Специалисты клиники уделяют особое внимание профилактике хронических заболеваний и вакцинации */
-width: 568px;
-height: 128px;
-color: whitesmoke;
-
-font-family: Onest;
-font-size: 24px;
-font-weight: 400;
-line-height: 29px;
-letter-spacing: 0px;
-text-align: left;
-}
- 
- .advantage-item1{
-  width: 340px;
-  letter-spacing: 0px;
-text-align: left;
-h3{
-width: 340px;
-height: 76px;
-color:  rgba(255, 255, 255, 1);
-font-family: Onest;
-font-size: 32px;
-font-weight: 500;
-line-height: 38px;
- }
-}
-txt{
-width: 340px;
-height: 128px;
-color: whitesmoke;
-font-family: Onest;
-font-size: 24px;
-font-weight: 400;
-line-height: 29px;
-  }
-  
- h2{
-  /* Вызов врача на дом */
-width: 484px;
-height: 58px;
-
  }

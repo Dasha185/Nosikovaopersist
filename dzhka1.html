@@ -5,54 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Скелет сайта</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<header>
-<div class="data">
+ </head>
+ <body>
+ <div class="data">
       <logo>Доктор Тома</logo>
       <address>
          работаем круглосуточно <br>
          Подольск, ул. Чайковского, 48А +7(956)67964366
       </address>
       </div>
-</header>
-<body>
-  <body style="background-color: rgba(73, 105, 55, 1);"></body>
-  <section class = "Доктор-тома">
-      <div class = "centr">
+         <section class = "Доктор-тома">
+      <bg-image></bg-image>
       <h1>Доктор Тома - ветеринарная клиника безусловной любви</h1>
+      <div class = "centr">
          <p class="text1">Полный спектр услуг: от диагностики<br> и лечения, до медицинского сопровождения<br> питомцев разного вида и возраста</p>
+         <img src="" alt="">
            <button class="appointment-btn">Запишитесь на прием</button> <br>
-           </div>
            </section>
-           <section class="акции-декабря">
-<p1>Акции декабря</p1> <button class="promotion-btn">←</button>
+         <p1>Акции декабря</p1> <button class="promotion-btn">←</button>
             <button class="promotion-btn">→</button><p>
-              <div class="item">
-<li class="image-text-container"></li>
-    <li class="image-text-container2">
-</li>
-<li class="image-text-container3">
-              </li>
- </div>
-           </section>
-          <section class="info">
+               <div class="image-text-container">
+    <div class="text-overlay">-15% <br> На первый прием</div>
+</div>
+<div class="image-text-container2">
+   <bg-image></bg-image>
+    <div class="text-overlay2"><p>Скидка волонтерам <br> на услуги клиники 15% <br> на бездомных животных</p></div>
+</div>
+<div class="image-text-container3">
+  <bg-image></bg-image>
+    <div class="text-overlay3"><p>Каждую пятницу стерилизация кошки от 2250₽, вместо 3500₽</p></div>
+</div>
+  </div>
+    <section class="info">
       <p class="about">о клинике</p>
-       <div class="preim"><h2>Страсть к профессии <br> <p2>и забота о животных</p2> - <br> основные принципы нашей работы </h2> 
+       <h2 class="text2">Страсть к профессии <br> <p2>и забота о животных</p2> - <br> основные принципы нашей работы </h2> 
           <p3>Наша клиника открылась в 2023 году. <br> Специалисты клиники уделяют особое <br> внимание профилактике хронических <br> заболеваний и вакцинации</p3>
+    <section id="advantages" class="Преимущества">
+        <div class="advantages-doc">
+            <div class="advantage-item1">
+                <h3>Современное оборудование</h3>
+                <p>Проводим диагностику и лечение пациентов на самом современном оборудовании</p>
+            </div>           
+            <div class="advantage-item2">
+                <h3>Хирургия 24/7</h3>
+                <txt>Выполняем плановые, срочные и экстренные операции любой сложности круглосуточно</txt>
+            </div>
+            <div class="advantage-item3">
+                <h3>Экстренная помощь</h3>
+                <p>Оперативно принимаем, оперируем и лечим экстренного больного вне очереди</p>
+                <span class="only-us">Только у нас</span>
+            </div>
+            <div class="advantage-item4">
+                <h3>Биохимический анализ крови за 15 минут!</h3>
+                <p>Результаты анализов в кратчайшие сроки. Количество показателей можно выбрать</p>
+            </div>
+            <div class="advantage-item5">
+                <h3>Собственная база доноров</h3>
+                <p>Всегда в наличии цельная кровь, эритроцитарная масса, плазма крови кошек и собак</p>
+            </div>
+            <div class="advantage-item6">
+                <h3>Постановка катетера в яремную вену</h3>
+                <p>Поставим катетер в яремную вену вашему питомцу с максимальной осторожностью</p>
+                <span class="only-us">Только у нас</span>
+            </div>
+            <div class="advantage-item7">
+                <h3>Лечение, хирургия мелкого рогатого скота</h3>
+                <p>Успешно лечим, оперируем лошадей и остальных сельско-хозяйственных животных</p>
+                <span class="only-us">Только у нас</span>
+            </div>
         </div>
-            <div class="advantage-item1"></div>           
-            <div class="advantage-item2"></div>
-            <div class="advantage-item3"></div>
-            <div class="advantage-item4"></div>
-            <div class="advantage-item5"></div>
-            <div class="advantage-item6"></div>
-            <div class="advantage-item7"></div>
-         </section>
+    </section>
+    </section>
     <section class = "Вызов-врача-на-дом">
-      <span class="text2">
-<h2>Вызов врача на дом</h2>
+      <bg-image></bg-image>
+      <h2>Вызов врача на дом</h2>
       <p>Вашему питомцу требуется неоложная помщь? Приедем в течении 40 минут!</p>
-      </span>
       <label for="name">Ваше имя</label>
       <input type="text" id="name">
       <p><label for="number">Телефон</label>
@@ -61,12 +88,12 @@
       <P>*Нажимая на кнопку, вы соглашаетесь с политикой конфидициальности</P>
     </section>
     <section class = "Услуги">
-      <p class="ysl">Услуги <h2>Мы предоставляем срочную качественную медицинскую помощь вашим питомцам</h2></p>
+      <p>Услуги <h2>Мы предоставляем срочную качественную медицинскую помощь вашим питомцам</h2></p>
       <button class="promotion-btn">←</button> <button class="promotion-btn">→</button>
-      <div class="инстр"></div>
-       <div class="исследования"></div>
-          <div class="хирургия"></div>
-           <div class="Теапия"></div>
+      <li><img src="" alt="">Инструментальная диагностика</li>
+       <li>Лабораточные исследования</li>
+          <li><img src="" alt="">Хирургия</li>
+           <li>Терапия и профилактика</li>
            <button class="all-services-btn">ВСЕ УСЛУГИ</button>
     </section>
     </section>
@@ -78,6 +105,7 @@
 <img src="" alt=""> <h4>Рябова Ирина Владимировна</h4> <p>Терапевт, хирург, стоматолог</p></p>
     </section>
     <sectoin class = "Запишитесь на прием">
+       <bg-image></bg-image>
       <h2>Запишитесь на прием прямо сейчас!</h2>
       <p>Не откладывайте профилактику и лечение заболеваний питомца, оставьте заявку и наш менеджер свяжется с вами </p>
       <label for="name">Ваше имя</label>
