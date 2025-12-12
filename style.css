@@ -4,9 +4,11 @@ html{
   font-size: 16px;
   width: 1200px;
   height: 7880px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 header{
-width: 1200px;
+width: 1202px;
 height: 108px;
 display: flex;
 flex-flow: row wrap;
@@ -59,14 +61,21 @@ body{
   color: aliceblue;
 }
 .doctor-toma{
-width: 1200px;
+  position: relative;
+  z-index: -1;
+  top: -25px;
+width: 1240px;
 height: 993px;
 opacity: 1;
-top: -5px;
-background: url('/картинки/фон.jpg') no-repeat center;
+background:linear-gradient(270.00deg, rgba(255, 181, 0, 1),rgba(255, 134, 5, 1) 100%);
   text-align: center;
 }
+.svg{
+  position: relative;
+}
 .centr{
+  position: absolute;
+  top: 0;
 width: 827px;
 height: 332px;
 padding-top: 531px;
@@ -79,16 +88,27 @@ justify-content: flex-start;
 align-items: center;
 gap: 40;
  text-align: center;
-h1{
+}
+.centr1{
 width: 827px;
 height: 96px;
 color: var(--white, rgba(255, 255, 255, 1));
 font-family: Onest;
 font-size: 3.5rem;
-font-weight: 400;
+font-weight: 700;
 line-height: 67px;
 letter-spacing: 0px;
  text-align: center;
+
+}
+.centr1-1{
+  font-family: Great Vibes;
+font-weight: 100;
+font-style: Regular;
+font-size: 56px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
 }
 .text1{
   /* Полный спектр услуг: от диагностики и лечения, до медицинского сопровождения питомцев разного вида и возраста */
@@ -101,7 +121,6 @@ font-weight: 400;
 line-height: 29px;
 letter-spacing: 0px;
  text-align: center;
-}
 }
 .appointment-btn {
   display: inline-block;
@@ -116,19 +135,20 @@ padding-top: 27px;
 padding-right: 20px;
 padding-bottom: 27px;
 padding-left: 20px;
+
     border: none;
-    border-radius: 12px;
-    font-family: 'Arial', sans-serif;
+    font-family: Onest;
     font-size: 0.9rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
+   font-weight: 350;
+    line-height: 5px;
+    letter-spacing: 0px;
     text-align: center;
     cursor: pointer;
-    transition: all 0.3s ease;
     letter-spacing: 0.5px;
     
-    background-color: darkgreen;
+    background:url('/картинки/8ce7eca279b0914984b1afc3d305bf44318c3b9a.png') no-repeat, rgba(73, 105, 55, 1);
+    background-position: 65px 50%;
+    background-size:25px;
     color: white;
    
 }
@@ -168,9 +188,10 @@ transform: translateY(-1px);
 }
 
 .december-item{
+  position:relative;
+  top: -70px;
  width: 1200px;
-height: 580px;
-top: 918px;
+height: 510px;
 opacity: 1;
 border-radius: 20px;
 padding-top: 40px;
@@ -178,9 +199,7 @@ padding-right: 20px;
 padding-bottom: 70px;
 padding-left: 20px;
 gap: 30px;
-box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.25);
 background: var(--white, rgba(255, 255, 255, 1));
-margin-bottom: 15px;
 }
 .button{
   /* title */
@@ -214,41 +233,81 @@ height: 394px;
 /* Auto layout */
 display: flex;
 flex-direction: row;
-justify-content: flex-start;
+justify-content: space-around;
 align-items: flex-start;
 margin-top: 50px;
 gap: 10;
 }
 
 .image-text-container{
-    display: inline-block;
-  background: url('/картинки/item.jpg') left no-repeat;
-width: 380px;
+  background: url('/картинки/dd2a6d75726f47721b333febace7521486082d42.png')no-repeat;
+   background-size: contain;
+width: 370px;
 height: 394px;
 gap: 58;
 padding: 10px 0px 30px 20px;
 border-radius: 20px;
 }
+.image1{
+  /* -15% На первый прием */
+width: 341px;
+height: 164px;
+color:rgba(250, 248, 247, 0.9);
+font-family: Onest;
+font-size: 24px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+padding: 280px 19px 0px 5px;
+}
 .image-text-container2{
-    display: inline-block;
-  background: url('/картинки/item\ \(1\).jpg') center no-repeat;
-  background-position: center;
-  width: 380px;
+  background: url('/картинки/f98f91ed073f31c84b46370b62e3c4d390664136.png')no-repeat;
+   background-size: contain;
+  width: 370px;
 height: 394px;
 gap: 30;
 padding: 10px 0px 30px 20px;
 border-radius: 20px;
 }
+.image2{
+  /* Скидка волонтерам на услуги клиники 15% на бездомных животных */
+width: 341px;
+height: 96px;
+color: var(--white 90%, rgba(250, 248, 247, 0.9));
+
+font-family: Onest;
+font-size: 24px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+padding: 245px 19px 0px 5px;
+}
 .image-text-container3{
-  display: inline-block;
-  background: url('/картинки/item\ \(2\).jpg') right no-repeat;
+  background: url('/картинки/f75755d3754d8cd5fe6e83b4f64c93a8c8ccdd7b.png')no-repeat;
+   background-size: contain;
   /* item */
-width: 380px;
+width: 370px;
 height: 394px;
 /* Автолейаут */
 gap: 30;
 padding: 10px 0px 30px 20px;
 border-radius: 20px;
+}
+.image3{
+  /* Каждую пятницу стерилизация кошки от 2250₽, вместо 3500₽ */
+width: 341px;
+height: 96px;
+color: var(--white 90%, rgba(250, 248, 247, 0.9));
+
+font-family: Onest;
+font-size: 24px;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+padding: 245px 19px 0px 5px;
 }
 .promotion1-btn {
 position: relative; right: -460px;
@@ -286,7 +345,7 @@ opacity: 1;
 
 .info{
   /* content */
-width: 1160px;
+width: 1200px;
 height: 460px;
 /* Auto layout */
 display: flex;
@@ -617,9 +676,9 @@ padding: 7px 20px 30px 20px;
 }
 .call-home{
   background: url('/картинки/98fe77bf75c042f296dfeb9e936f01fd4d544ea4-_1_.jpg') no-repeat;
-background-size: contain;
+background-size: 100%;
 border-radius: 23px;
-width: 1160px;
+width: 1000px;
 height: 922px;
 /* Auto layout */
 display: flex;
@@ -814,40 +873,87 @@ align-items: flex-start;
 gap: 10 ;
 padding: 60px 0px 30px 0px;
 }
-.инстр{
-
-  background: url('/картинки/Services.jpg') no-repeat;
+.diagnostics{
+  background: url('/картинки/Без\ названия10_20251211210046.jpg') no-repeat;
+    background-size: contain;
 width: 283px;
 height: 282px;
 border-radius: 20px;
-
 } 
-.исследования{
+.diagn{
+  /* Инструментальная диагностика */
+width: 224px;
+height: 64px;
+color: var(--white, rgba(255, 255, 255, 1));
 
-  background: url('/картинки/Services\ \(1\).jpg') no-repeat;
+font-family: Onest;
+font-size: 24px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: left;
+padding: 180px 39px 20px 20px;
+}
+.laboratory{
+  background: url('/картинки/Без\ названия11_20251211210244.jpg') no-repeat;
+  background-size:100%;
 width: 283px;
 height: 282px;
 border-radius: 20px;
 }
-.хирургия{
-
-  background: url('/картинки/Services\ \(2\).jpg') no-repeat;
-width: 283px;
-height: 282px;
-border-radius: 20px;
-
-
-
+.lab{
+  /* Инструментальная диагностика */
+width: 224px;
+height: 64px;
+color: var(--white, rgba(255, 255, 255, 1));
+font-family: Onest;
+font-size: 24px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: left;
+padding: 180px 39px 20px 20px;
 }
-.Теапия{
-
-  background: url('/картинки/Services\ \(3\).jpg') no-repeat;
+.surgery{
+  background: url('/картинки/Без\ названия12_20251211210431.jpg') no-repeat;
+  background-size: contain;
 width: 283px;
 height: 282px;
 border-radius: 20px;
+}
+.surg{
+  /* Инструментальная диагностика */
+width: 224px;
+height: 32px;
+color: var(--white, rgba(255, 255, 255, 1));
 
+font-family: Onest;
+font-size: 24px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: left;
+padding: 210px 39px 20px 20px;
+}
+.therapy{
+background: url('/картинки/Icon\ \(3\).png') no-repeat, rgba(111, 140, 95, 0.5);
+width: 283px;
+height: 282px;
+border-radius: 20px;
+}
+.therap{
+  /* Инструментальная диагностика */
+width: 224px;
+height: 64px;
+color: var(--white, rgba(255, 255, 255, 1));
 
-
+font-family: Onest;
+font-size: 24px;
+font-weight: 300;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: left;
+padding: 180px 39px 20px 20px;
 }
 /* Кнопка "ВСЕ УСЛУГИ" */
 .all-services-btn {
@@ -976,25 +1082,108 @@ align-items:end;
 gap: 10;
 }
 .doctor1{
-  background: url('/картинки/Врач\ 1.jpg') left no-repeat;
+  background: url('/картинки/cd7921075e577bf359995a177639eeb55240419d.png') left no-repeat;
+  background-size: contain;
 width: 380px;
 height: 450px;
 border-radius: 20px;
+}
+.doc1{
+  /* Ласточкина Татьяна Евгеньевна */
+width: 340px;
+height: 76px;
+color: var(--white, rgba(255, 255, 255, 1));
+font-family: Onest;
+font-size: 32px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0px;
+text-align: left;
+padding: 270px 20px 0px 20px;
+}
+.doc1-1{
+  /* Терапевт, хирург, стоматолог */
+width: 340px;
+height: 24px;
+color: var(--white 90%, rgba(250, 248, 247, 0.9));
 
+font-family: Onest;
+font-size: 18px;
+font-weight: 300;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+padding: 0px 20px 0px 20px;
 }
 .doctor2{
-  background: url('/картинки/Врач\ 2.jpg') center no-repeat;
+  background: url('/картинки/4f07613f42bc4c3d3982314278468c378ca7704b.jpg') center no-repeat;
+  background-size: 100%;
 width: 380px;
 height: 450px;
 
 border-radius: 20px;
 }
+.doc2{
+  /* Журавлев Игорь Николаевич */
+width: 360px;
+height: 76px;
+color: var(--white, rgba(255, 255, 255, 1));
+
+font-family: Onest;
+font-size: 32px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0px;
+text-align: left;
+padding:270px 20px 0px 20px;
+} 
+.doc2-2{
+  /* Терапевт, хирург, стоматолог */
+width: 256px;
+height: 24px;
+color: var(--white 90%, rgba(250, 248, 247, 0.9));
+
+font-family: Onest;
+font-size: 18px;
+font-weight: 300;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+padding: 0px 20px 0px 20px;
+}
 .doctor3{
-  background: url('/картинки/Врач\ 3.jpg') right no-repeat;
+  background: url('/картинки/8eca36c7c594ae4f7355c09c27e9460d64b2c38c.jpg') right no-repeat;
+  background-size: 100%;
   width: 380px;
 height: 450px;
 
 border-radius: 20px;
+}
+.doc3{
+  width: 360px;
+height: 76px;
+color: var(--white, rgba(255, 255, 255, 1));
+
+font-family: Onest;
+font-size: 32px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0px;
+text-align: left;
+padding:270px 20px 0px 20px;
+}
+.doc3-3{
+  width: 256px;
+height: 24px;
+color: var(--white 90%, rgba(250, 248, 247, 0.9));
+
+font-family: Onest;
+font-size: 18px;
+font-weight: 300;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+padding: 0px 20px 0px 20px;
 }
 .appointment{
   background: url('/картинки/97e02a9bc0432e7d06d6a47cb6ea801a3d00fc7f.jpg') no-repeat;
