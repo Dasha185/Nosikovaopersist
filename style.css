@@ -4,7 +4,7 @@
 html {
   font-size: 16px;
   width: 1200px;
-  height: 7880px;
+  height: 7950px;
   margin-left: 150px;
   margin-right: 150px;
 }
@@ -370,7 +370,8 @@ body {
 }
 
 .info {
-  /* content */
+  position: relative;
+  left: 20px;
   width: 1200px;
   height: 460px;
   /* Auto layout */
@@ -386,15 +387,23 @@ body {
   /* caption */
   width: 130px;
   height: 33px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 0px 7px 0px;
   gap: 10;
-  padding: 27px 20px 27px 20px;
-  color: rgba(250, 248, 247, 0.9);
+  box-sizing: border-box;
+  border: 1px solid rgba(250, 248, 247, 0.9);
+  border-radius: 50px;
   font-size: 1.1rem;
-  font-weight: 400;
-  line-height: 22px;
+  font-weight: 300;
 }
 
 .preim {
+  position: relative;
+  top: -97px;
   /* content */
   width: 568px;
   height: 58px;
@@ -431,16 +440,20 @@ body {
 .inf {
   width: 568px;
   /* Наша клиника открылась в 2023 году. Специалисты клиники уделяют особое внимание профилактике хронических заболеваний и вакцинации */
-  height: 8px;
+  height: 128px;
   color: rgba(250, 248, 247, 0.9);
   font-family: Onest;
   font-size: 1.5rem;
-  letter-spacing: 0px;
-  padding: 200px 241px 120px 330px;
+  line-height: 35px;
+  padding: 100px 291px 120px 390px;
+}
+
+.advantages {
+  position: relative;
+  left: 20px;
 }
 
 .advantage {
-  /* advantages */
   width: 1160px;
   height: 1370px;
   /* Auto layout */
@@ -730,10 +743,13 @@ body {
 }
 
 .call-home {
+  position: relative;
+  top: 120px;
+  left: 20px;
   background: url('/картинки/98fe77bf75c042f296dfeb9e936f01fd4d544ea4-_1_.jpg') no-repeat;
   background-size: 100%;
   border-radius: 23px;
-  width: 1000px;
+  width: 1165px;
   height: 922px;
   /* Auto layout */
   display: flex;
@@ -741,41 +757,46 @@ body {
   justify-content: flex-end;
   align-items: flex-start;
   gap: 10;
-  padding: 80px;
-
 
 }
 
 .text2 {
   width: 484px;
-  height: 494px;
-  opacity: 1;
-  gap: 60px;
-
-  h2 {
-    /* Вызов врача на дом */
-    width: 484px;
-    height: 58px;
-    color: rgba(255, 255, 255, 1);
-    font-family: Onest;
-    font-size: 3rem;
-    letter-spacing: 0px;
-    text-align: right;
-  }
-
-  p {
-    /* Вашему питомцу требуется неотложная помощь? Приедем в течение 40 минут! */
-    width: 482px;
-    height: 64px;
-    color: rgba(255, 255, 255, 1);
-    font-family: Onest;
-    font-size: 1.5rem;
-    letter-spacing: 0px;
-    align-items: right;
-  }
+  height: 694px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 60;
+  padding: 0px 80px 0px 0px;
 }
 
-input {
+.call {
+  /* Вызов врача на дом */
+  width: 484px;
+  height: 58px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Onest;
+  font-size: 3rem;
+  letter-spacing: 0px;
+  padding: 50px 80px 0px 0px;
+}
+
+.call-1 {
+  position: relative;
+  top: -35px;
+  /* Вашему питомцу требуется неотложная помощь? Приедем в течение 40 минут! */
+  width: 482px;
+  height: 64px;
+  color: rgba(255, 255, 255, 1);
+  font-family: Onest;
+  font-size: 1.5rem;
+  letter-spacing: 0px;
+  align-items: right;
+}
+
+.namee {
   background: transparent;
   float: right;
   clear: both;
@@ -784,13 +805,54 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: right;
   text-align: left;
   color: aliceblue;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 22px;
   gap: 10;
   box-sizing: border-box;
   border: 1px solid var(--white, rgba(255, 255, 255, 1));
   border-radius: 14px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.num {
+  background: transparent;
+  float: right;
+  clear: both;
+  width: 484px;
+  height: 78px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  color: aliceblue;
+  gap: 10;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 22px;
+  box-sizing: border-box;
+  border: 1px solid var(--white, rgba(255, 255, 255, 1));
+  border-radius: 14px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.confidence {
+  /* *Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности. */
+  width: 484px;
+  height: 10px;
+  color: var(--white, rgba(255, 255, 255, 1));
+
+  font-family: Onest;
+  font-size: 0.6rem;
+  font-weight: 300;
+  line-height: 12px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-top: 10px;
 }
 
 /* Кнопка отправки формы */
@@ -813,7 +875,6 @@ input {
   font-weight: 700;
   text-align: center;
   cursor: pointer;
-  transition: all 0.3s ease;
 
 
   background-color: orangered;
@@ -837,25 +898,10 @@ input {
   background-color: darkgreen;
 }
 
-.submit-btn:active,
-.form-submit:active {
-  width: 484px;
-  height: 292px;
-  top: 280px;
-  left: 20px;
-  border-radius: 14px;
-  gap: 10px;
-  opacity: 1;
-  padding-top: 27px;
-  padding-right: 20px;
-  padding-bottom: 27px;
-  padding-left: 20px;
-  transform: translateY(-1px);
-  background-color: white;
-  color: orangered;
-}
-
 .servises {
+  position: relative;
+  top: 170px;
+  left: 20px;
   /* services */
   width: 1160px;
   height: 745px;
@@ -882,15 +928,18 @@ input {
 
 .ysl {
   /* button */
-  width: 99px;
+  width: 105px;
   height: 33px;
   /* Автолейаут */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  border: 1px solid var(--white, rgba(255, 255, 255, 1));
+  border-radius: 50px;
   gap: 10;
-  padding: 27px 20px 27px 20px;
+  padding: 5px 0px 5px 00px;
 }
 
 .container {
@@ -929,12 +978,12 @@ input {
 
 .list {
   /* list */
-  width: 1214px;
+  width: 1164px;
   height: 282px;
   /* Auto layout */
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   gap: 10;
   padding: 60px 0px 30px 0px;
@@ -1043,17 +1092,12 @@ input {
   gap: 10px;
   opacity: 1;
   padding-top: 18px;
-  padding-right: 20px;
   padding-bottom: 18px;
-  padding-left: 20px;
+  padding-left: 110px;
   border: none;
-  border-radius: 12px;
   font-size: 1.3rem;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 500;
   cursor: pointer;
-  transition: all 0.3s ease;
-
   background-color: orangered;
   color: white;
 }
@@ -1064,31 +1108,14 @@ input {
   border-radius: 14px;
   gap: 10px;
   opacity: 1;
-  padding-top: 18px;
-  padding-right: 20px;
-  padding-bottom: 18px;
-  padding-left: 20px;
   background: rgba(111, 140, 95, 1);
   color: white;
 }
 
-.all-services-btn:active {
-  width: 350px;
-  height: 60px;
-  border-radius: 14px;
-  gap: 10px;
-  opacity: 1;
-  padding-top: 18px;
-  padding-right: 20px;
-  padding-bottom: 18px;
-  padding-left: 20px;
-
-  transform: translateY(-1px);
-  background-color: white;
-  color: orangered;
-}
-
 .specialists {
+  position: relative;
+  top: 230px;
+  left: 20px;
   /* specialists */
   width: 1160px;
   height: 666px;
@@ -1102,26 +1129,45 @@ input {
   margin-bottom: 200px;
 }
 
-P {
-  /* Специалисты */
-  width: 116px;
-  height: 24px;
-  color: rgba(255, 255, 255, 1);
+.cont {
+  /* container */
+  width: 1160px;
+  height: 156px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 130px;
+}
 
+.spec {
+  /* Специалисты */
+  width: 146px;
+  height: 34px;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 7px 20px 7px 20px;
+  box-sizing: border-box;
+  border: 1px solid var(--white, rgba(255, 255, 255, 1));
+  border-radius: 50px;
   font-family: Onest;
   font-size: 1.13rem;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0px;
-  text-align: center;
+  font-weight: 300;
+  margin-top: 50px;
 }
 
 .container2 {
   /* Group 65 */
   width: 779px;
   height: 126px;
-  padding-left: 381px;
+  padding-left: 231px;
   padding-bottom: 120px;
+  margin-bottom: 50px;
 }
 
 .experience {
@@ -1276,8 +1322,11 @@ P {
 }
 
 .appointment {
+  position: relative;
+  top: 200px;
+  left: 20px;
   background: url('/картинки/97e02a9bc0432e7d06d6a47cb6ea801a3d00fc7f.jpg') no-repeat;
-  width: 1160px;
+  width: 1165px;
   height: 820px;
   /* Auto layout */
   display: flex;
@@ -1287,7 +1336,19 @@ P {
   gap: 10;
   border-radius: 20px;
   color: white;
-  margin-bottom: 150px;
+}
+
+.text3 {
+  /* Frame 136 */
+  width: 532px;
+  height: 699px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50;
+  padding-right: 80px;
 }
 
 .appoint {
@@ -1298,10 +1359,10 @@ P {
   font-family: Onest;
   font-size: 3rem;
   font-weight: 700;
-  line-height: 58px;
+  line-height: 30px;
   letter-spacing: 0px;
   text-align: right;
-  padding: 80px 80px 0px 548px;
+  padding: 40px 80px 0px 0px;
 }
 
 .right-now {
@@ -1324,26 +1385,11 @@ P {
   color: var(--white 90%, rgba(250, 248, 247, 0.9));
   font-family: Onest;
   font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 29px;
+  font-weight: 300;
+  line-height: 30px;
   letter-spacing: 0px;
   text-align: left;
-  padding: 50px 118px 0px 548px;
-}
-
-p1 {
-  /* *Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности. */
-  width: 532px;
-  height: 12px;
-  color: rgba(250, 248, 247, 0.9);
-  font-family: Onest;
-  font-size: 0.6rem;
-  font-weight: 400;
-  line-height: 12px;
-  letter-spacing: 0px;
-  text-align: left;
-  padding-top: 20px;
-  text-align: right;
+  padding: 0px 118px 20px 0px;
 }
 
 /* Кнопка в футере - ЗАПИСАТЬСЯ НА ПРИЕМ */
@@ -1409,7 +1455,7 @@ p1 {
 /* Специальные стили для кнопок с акциями */
 .promotion3-btn {
   position: relative;
-  right: -1100px;
+  right: -1050px;
   width: 46px;
   height: 46px;
   top: 66px;
@@ -1428,7 +1474,7 @@ p1 {
 
 .promotion4-btn {
   position: relative;
-  right: -1160px;
+  right: -1105px;
   width: 46px;
   height: 46px;
   top: 20px;
@@ -1448,6 +1494,9 @@ p1 {
 }
 
 .end {
+  position: relative;
+  top: 300px;
+  left: 20px;
   background: url('/картинки/photo_5449835967436419853_x.jpg') right no-repeat;
   background-color: rgba(255, 255, 255, 1);
   color: black;
@@ -1455,9 +1504,7 @@ p1 {
   height: 559px;
   display: flex;
   opacity: 1;
-  left: 20px;
   border-radius: 20px;
-  margin-bottom: 50px;
 }
 
 .logo1 {
@@ -1477,24 +1524,57 @@ p1 {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
+  padding-left: 30px;
 }
 
 .contacts {
   /* Frame 738001012 */
   width: 380px;
   height: 53px;
-  padding: 10px 13px 20px 80px;
+  font-family: Onest;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 32px;
+  padding: 10px 13px 0px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5;
+
+}
+
+.time {
+  /* Круглосуточно */
+  width: 73px;
+  height: 12px;
+  color: gray;
+
+  font-family: Onest;
+  font-size: 0.6rem;
+  font-weight: 400;
+  line-height: 0px;
+  letter-spacing: 0px;
 }
 
 .links {
   /* Frame 738001094 */
   width: 420px;
   height: 0px;
+  font-size: 0.6rem;
+  font-family: Onest;
   /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0px;
-  padding: 0px 0px 0px 50px;
+  box-sizing: border-box;
+  border-top: 1.5px solid rgba(30, 30, 30, 0.5);
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
 }
