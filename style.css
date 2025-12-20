@@ -587,10 +587,9 @@ body {
 
 .adv4 {
   /* Биохимический анализ крови */
-  width: 277px;
+  width: 287px;
   height: 76px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Onest;
   font-size: 32px;
   font-weight: 500;
@@ -599,6 +598,7 @@ body {
 }
 
 .adva {
+  display: block;
   /* за 15 минут! */
   width: 316px;
   height: 35px;
@@ -608,7 +608,7 @@ body {
   font-size: 50px;
   font-weight: 400;
   text-align: left;
-  padding: 0px 44px 0px 20px;
+  padding: 0px 44px 0px 0px;
 }
 
 .adv4-4 {
@@ -623,7 +623,7 @@ body {
   line-height: 32px;
   letter-spacing: 0px;
   text-align: left;
-  padding: 47px 20px 30px 20px;
+  padding: 138px 20px 30px 20px;
 }
 
 .advantage5 {
@@ -703,7 +703,8 @@ body {
 }
 
 .advantage7 {
-  background-color: rgba(111, 140, 95, 1);
+  background: url('/картинки/goat\ 1\ \(1\).png') no-repeat, rgba(111, 140, 95, 1);
+  background-position: 5% 10%;
   /* сard */
   width: 380px;
   height: 450px;
@@ -1059,6 +1060,7 @@ body {
 
 .therapy {
   background: url('/картинки/Icon\ \(3\).png') no-repeat, rgba(111, 140, 95, 0.5);
+  background-position: 5% 10%;
   width: 283px;
   height: 282px;
   border-radius: 20px;
@@ -1209,7 +1211,7 @@ body {
 }
 
 .doctor1 {
-  background: url('/картинки/cd7921075e577bf359995a177639eeb55240419d.png') left no-repeat;
+  background: linear-gradient(180.00deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3) 76%, rgba(0, 0, 0, 0.3) 100%), url('/картинки/cd7921075e577bf359995a177639eeb55240419d.png') left no-repeat;
   background-size: contain;
   width: 380px;
   height: 450px;
@@ -1246,7 +1248,7 @@ body {
 }
 
 .doctor2 {
-  background: url('/картинки/4f07613f42bc4c3d3982314278468c378ca7704b.jpg') center no-repeat;
+  background: linear-gradient(180.00deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7) 74%, rgba(0, 0, 0, 0.7) 100%), url('/картинки/4f07613f42bc4c3d3982314278468c378ca7704b.jpg') center no-repeat;
   background-size: 100%;
   width: 380px;
   height: 450px;
@@ -1285,7 +1287,7 @@ body {
 }
 
 .doctor3 {
-  background: url('/картинки/8eca36c7c594ae4f7355c09c27e9460d64b2c38c.jpg') right no-repeat;
+  background: linear-gradient(180.00deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7) 77%, rgba(0, 0, 0, 0.7) 100%), url('/картинки/8eca36c7c594ae4f7355c09c27e9460d64b2c38c.jpg') right no-repeat;
   background-size: 100%;
   width: 380px;
   height: 450px;
