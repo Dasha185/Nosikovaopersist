@@ -23,15 +23,26 @@ header {
 
 .logo {
   background: url('/картинки/Frame\ 738001144.jpg');
-  /* Frame 738001144 */
   width: 254px;
   height: 54px;
+  margin-bottom: 35px;
+}
 
+.artheclock {
+  width: 121px;
+  height: 12px;
+  color: rgba(30, 30, 30, 0.7);
+  font-family: Onest;
+  font-style: Regular;
+  font-size: 0.625rem;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0px;
+  text-align: left;
 }
 
 .addres {
   color: black;
-  /* Подольск, ул.Чайковского, 48А */
   width: 283px;
   height: 24px;
   font-family: Onest;
@@ -40,6 +51,7 @@ header {
   line-height: 22px;
   letter-spacing: 0px;
   text-align: left;
+  margin-bottom: 60px;
 }
 
 .telephone {
@@ -55,12 +67,11 @@ header {
 
 .menu {
   background: url('/картинки/BurgerMenu.png');
-  /* BurgerMenu */
   width: 35px;
   height: 16px;
-  /* Auto layout */
   display: flex;
   gap: 10;
+  border: none;
 }
 
 body {
@@ -123,7 +134,6 @@ body {
 }
 
 .text1 {
-  /* Полный спектр услуг: от диагностики и лечения, до медицинского сопровождения питомцев разного вида и возраста */
   width: 521px;
   height: 96px;
   color: rgba(250, 248, 247, 0.9);
@@ -148,7 +158,6 @@ body {
   padding-right: 20px;
   padding-bottom: 27px;
   padding-left: 20px;
-
   border: none;
   font-family: Onest;
   font-size: 0.9rem;
@@ -158,7 +167,6 @@ body {
   text-align: center;
   cursor: pointer;
   letter-spacing: 0.5px;
-
   background: url('/картинки/8ce7eca279b0914984b1afc3d305bf44318c3b9a.png') no-repeat, rgba(73, 105, 55, 1);
   background-position: 65px 50%;
   background-size: 25px;
@@ -182,10 +190,8 @@ body {
 }
 
 .button {
-  /* title */
   width: 1160px;
   height: 46px;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -193,26 +199,25 @@ body {
 }
 
 .dec {
-  /* button */
   width: 173px;
   height: 33px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10;
-  color: green;
-  padding: 27px 20px 27px 20px;
+  color: rgba(73, 105, 55, 1);
+  font-family: Onest;
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding: 5px 10px 5px 10px;
   box-sizing: border-box;
-  border: 1px solid var(--green, rgba(73, 105, 55, 1));
+  border: 1.5px solid var(--green, rgba(73, 105, 55, 1));
   border-radius: 50px;
 }
 
 .item {
-  /* list */
   width: 1200px;
   height: 394px;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -232,7 +237,6 @@ body {
 }
 
 .image1 {
-  /* -15% На первый прием */
   width: 341px;
   height: 164px;
   color: rgba(250, 248, 247, 0.9);
@@ -256,11 +260,9 @@ body {
 }
 
 .image2 {
-  /* Скидка волонтерам на услуги клиники 15% на бездомных животных */
   width: 341px;
   height: 96px;
   color: var(--white 90%, rgba(250, 248, 247, 0.9));
-
   font-family: Onest;
   font-size: 1.5rem;
   font-weight: 300;
@@ -273,21 +275,17 @@ body {
 .image-text-container3 {
   background: url('/картинки/f75755d3754d8cd5fe6e83b4f64c93a8c8ccdd7b.png')no-repeat;
   background-size: contain;
-  /* item */
   width: 370px;
   height: 394px;
-  /* Автолейаут */
   gap: 30;
   padding: 10px 0px 30px 20px;
   border-radius: 20px;
 }
 
 .image3 {
-  /* Каждую пятницу стерилизация кошки от 2250₽, вместо 3500₽ */
   width: 341px;
   height: 96px;
   color: var(--white 90%, rgba(250, 248, 247, 0.9));
-
   font-family: Onest;
   font-size: 1.5rem;
   font-weight: 300;
@@ -299,18 +297,16 @@ body {
 
 .promotion1-btn {
   position: relative;
+  top: 0.5px;
   right: -470px;
   width: 46px;
   height: 46px;
-
   opacity: 1;
-
   border: none;
   font-size: 1.5rem;
   border-radius: 50%;
   text-align: center;
   cursor: pointer;
-
   background-color: rgba(111, 140, 95, 0.5);
   color: white;
 }
@@ -321,13 +317,11 @@ body {
   width: 46px;
   height: 46px;
   opacity: 1;
-
   border: none;
   font-size: 1.5rem;
   border-radius: 50%;
   text-align: center;
   cursor: pointer;
-
   background-color: rgba(111, 140, 95, 1);
   color: white;
 }
@@ -338,7 +332,6 @@ body {
   left: 1110px;
   z-index: 1;
   background: url('/картинки/Vector_9.svg.png') no-repeat;
-  /* Vector_9.svg */
   width: 96px;
   height: 93px;
   background-size: 100%;
@@ -349,7 +342,6 @@ body {
   left: 20px;
   width: 1200px;
   height: 460px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -359,10 +351,8 @@ body {
 }
 
 .about {
-  /* caption */
   width: 130px;
   height: 33px;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -379,10 +369,8 @@ body {
 .preim {
   position: relative;
   top: -97px;
-  /* content */
   width: 568px;
   height: 58px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -414,7 +402,6 @@ body {
 
 .inf {
   width: 568px;
-  /* Наша клиника открылась в 2023 году. Специалисты клиники уделяют особое внимание профилактике хронических заболеваний и вакцинации */
   height: 128px;
   color: rgba(250, 248, 247, 0.9);
   font-family: Onest;
@@ -429,8 +416,6 @@ body {
   left: -140px;
   z-index: -1;
   background: url('/картинки/Vector.png') no-repeat;
-  /* Vector_9.svg */
-  /* Vector */
   width: 708px;
   height: 251px;
   background-size: 100%;
@@ -442,11 +427,6 @@ body {
   left: 275px;
   z-index: -1;
   background: url('/картинки/vector2.png') no-repeat;
-  /* Vector_9.svg */
-  /* Vector */
-  /* Desktop */
-  /* Desktop */
-  /* vector */
   width: 801px;
   height: 246px;
   background-size: 100%;
@@ -461,7 +441,6 @@ body {
 .advantage {
   width: 1160px;
   height: 1370px;
-  /* Auto layout */
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -478,11 +457,9 @@ body {
 }
 
 .adv1 {
-  /* Современное оборудование */
   width: 340px;
   height: 76px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Onest;
   font-size: 2rem;
   font-weight: 500;
@@ -493,11 +470,9 @@ body {
 }
 
 .adv1-1 {
-  /* Проводим диагностику и лечение пациентов на самом современном оборудовании */
   width: 340px;
   height: 128px;
   color: var(--white 90%, rgba(250, 248, 247, 0.9));
-
   font-family: Onest;
   font-size: 1.5rem;
   font-weight: 400;
@@ -517,11 +492,9 @@ body {
 .adv2 {
   position: relative;
   top: -35px;
-  /* Хирургия 24/7 */
   width: 404px;
   height: 38px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Onest;
   font-size: 2rem;
   font-weight: 500;
@@ -533,11 +506,9 @@ body {
 .adv2-2 {
   position: relative;
   top: -40px;
-  /* Выполняем плановые, срочные и экстренные операции любой сложности круглосуточно */
   width: 367px;
   height: 96px;
   color: var(--white 90%, rgba(250, 248, 247, 0.9));
-
   font-family: Onest;
   font-size: 1.5rem;
   font-weight: 320;
@@ -553,7 +524,6 @@ body {
   left: 590px;
   width: 150px;
   height: 33px;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -573,18 +543,15 @@ body {
 .advantage3 {
   background: url('/картинки/Без\ названия8_20251205135510.jpg') no-repeat;
   background-size: cover;
-  /* сard */
   width: 380px;
   height: 450px;
   border-radius: 20px;
 }
 
 .adv3 {
-  /* Экстренная помощь */
   width: 289px;
   height: 76px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Onest;
   font-size: 2rem;
   font-weight: 500;
@@ -595,11 +562,9 @@ body {
 }
 
 .adv3-3 {
-  /* Оперативно принимаем, оперируем и лечим экстренного больного вне очереди */
   width: 303px;
   height: 128px;
   color: var(--white 90%, rgba(250, 248, 247, 0.9));
-
   font-family: Onest;
   font-size: 1.5rem;
   font-weight: 320;
@@ -611,14 +576,12 @@ body {
 
 .advantage4 {
   background-color: rgba(231, 99, 42, 1);
-  /* сard */
   width: 380px;
   height: 450px;
   border-radius: 20px;
 }
 
 .adv4 {
-  /* Биохимический анализ крови */
   width: 287px;
   height: 76px;
   color: var(--white, rgba(255, 255, 255, 1));
@@ -631,11 +594,9 @@ body {
 
 .adva {
   display: block;
-  /* за 15 минут! */
   width: 316px;
   height: 35px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Great Vibes;
   font-size: 3.125rem;
   font-weight: 400;
@@ -644,11 +605,9 @@ body {
 }
 
 .adv4-4 {
-  /* Результаты анализов в кратчайшие сроки. Количество показателей можно выбрать */
   width: 340px;
   height: 128px;
   color: var(--white 90%, rgba(250, 248, 247, 0.9));
-
   font-family: Onest;
   font-size: 1.5rem;
   font-weight: 320;
@@ -667,11 +626,9 @@ body {
 }
 
 .adv5 {
-  /* Собственная база доноров */
   width: 277px;
   height: 76px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Onest;
   font-size: 2rem;
   font-weight: 500;
@@ -682,11 +639,9 @@ body {
 }
 
 .adv5-5 {
-  /* Всегда в наличии цельная кровь, эритроцитарная масса, плазма крови кошек и собак */
   width: 331px;
   height: 128px;
   color: var(--white 90%, rgba(250, 248, 247, 0.9));
-
   font-family: Onest;
   font-size: 1.5rem;
   font-weight: 320;
@@ -707,11 +662,9 @@ body {
 .adv6 {
   position: relative;
   top: -35px;
-  /* Постановка катетера в яремную вену */
   width: 356px;
   height: 76px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Onest;
   font-size: 2rem;
   font-weight: 500;
@@ -724,11 +677,9 @@ body {
 .adv6-6 {
   position: relative;
   top: -40px;
-  /* Поставим катетер в яремную вену вашему питомцу с максимальной осторожностью */
   width: 420px;
   height: 96px;
   color: var(--white 90%, rgba(250, 248, 247, 0.9));
-
   font-family: Onest;
   font-size: 1.5rem;
   font-weight: 320;
@@ -741,20 +692,15 @@ body {
 .advantage7 {
   background: url('/картинки/goat\ 1\ \(1\).png') no-repeat, rgba(111, 140, 95, 1);
   background-position: 5% 10%;
-  /* сard */
   width: 380px;
   height: 450px;
-  /* Автолейаут */
-
   border-radius: 20px;
 }
 
 .adv7 {
-  /* Лечение, хирургия мелкого рогатого скота */
   width: 340px;
   height: 114px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Onest;
   font-size: 2rem;
   font-weight: 500;
@@ -765,11 +711,9 @@ body {
 }
 
 .adv7-7 {
-  /* Успешно лечим, оперируем лошадей и остальных сельско-хозяйственных животных */
   width: 340px;
   height: 128px;
   color: var(--white 90%, rgba(250, 248, 247, 0.9));
-
   font-family: Onest;
   font-size: 1.5rem;
   font-weight: 320;
@@ -788,7 +732,6 @@ body {
   border-radius: 23px;
   width: 1165px;
   height: 922px;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -800,7 +743,6 @@ body {
 .text2 {
   width: 484px;
   height: 694px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -810,7 +752,6 @@ body {
 }
 
 .call {
-  /* Вызов врача на дом */
   width: 484px;
   height: 58px;
   color: rgba(255, 255, 255, 1);
@@ -823,7 +764,6 @@ body {
 .call-1 {
   position: relative;
   top: -35px;
-  /* Вашему питомцу требуется неотложная помощь? Приедем в течение 40 минут! */
   width: 482px;
   height: 64px;
   color: rgba(255, 255, 255, 1);
@@ -878,11 +818,9 @@ body {
 }
 
 .confidence {
-  /* *Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности. */
   width: 484px;
   height: 10px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Onest;
   font-size: 0.6rem;
   font-weight: 300;
@@ -896,10 +834,8 @@ body {
   position: relative;
   top: 190px;
   left: 20px;
-  /* services */
   width: 1160px;
   height: 745px;
-  /* Автолейаут */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -909,10 +845,8 @@ body {
 }
 
 .caption {
-  /* caption+title */
   width: 1160px;
   height: 207px;
-  /* Автолейаут */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -921,10 +855,8 @@ body {
 }
 
 .ysl {
-  /* button */
   width: 100px;
   height: 33px;
-  /* Автолейаут */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -949,10 +881,7 @@ body {
 }
 
 .urget {
-  /* срочную качественную */
-
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Great Vibes;
   font-size: 3.125rem;
   font-weight: 400;
@@ -973,10 +902,8 @@ body {
 }
 
 .list {
-  /* list */
   width: 1164px;
   height: 300px;
-  /* Auto layout */
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -994,11 +921,9 @@ body {
 }
 
 .diagn {
-  /* Инструментальная диагностика */
   width: 224px;
   height: 64px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Onest;
   font-size: 1.5rem;
   font-weight: 300;
@@ -1018,7 +943,6 @@ body {
 }
 
 .lab {
-  /* Инструментальная диагностика */
   width: 224px;
   height: 64px;
   color: var(--white, rgba(255, 255, 255, 1));
@@ -1041,11 +965,9 @@ body {
 }
 
 .surg {
-  /* Инструментальная диагностика */
   width: 224px;
   height: 32px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Onest;
   font-size: 1.5rem;
   font-weight: 300;
@@ -1064,11 +986,9 @@ body {
 }
 
 .therap {
-  /* Инструментальная диагностика */
   width: 224px;
   height: 64px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Onest;
   font-size: 1.5rem;
   font-weight: 300;
@@ -1078,7 +998,7 @@ body {
   padding: 180px 39px 20px 20px;
 }
 
-/* Кнопка "ВСЕ УСЛУГИ" */
+
 .all-services-btn {
   display: inline-flex;
   position: relative;
@@ -1097,7 +1017,7 @@ body {
   font-size: 1.3rem;
   font-weight: 500;
   cursor: pointer;
-  background-color: orangered;
+  background-color: rgba(231, 99, 42, 1);
   color: white;
 }
 
@@ -1105,10 +1025,8 @@ body {
   position: relative;
   top: 290px;
   left: 20px;
-  /* specialists */
   width: 1160px;
   height: 666px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -1119,10 +1037,8 @@ body {
 }
 
 .cont {
-  /* container */
   width: 1160px;
   height: 156px;
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1131,7 +1047,6 @@ body {
 }
 
 .spec {
-  /* Специалисты */
   width: 146px;
   height: 34px;
   color: rgba(255, 255, 255, 1);
@@ -1151,7 +1066,6 @@ body {
 }
 
 .container2 {
-  /* Group 65 */
   width: 779px;
   height: 126px;
   padding-left: 231px;
@@ -1160,11 +1074,9 @@ body {
 }
 
 .experience {
-  /* Каждый из наших врачей */
   width: 610px;
   height: 58px;
   color: rgba(255, 255, 255, 1);
-
   font-family: Onest;
   font-size: 3rem;
   font-weight: 700;
@@ -1174,11 +1086,9 @@ body {
 }
 
 .exp {
-  /* имеет опыт работы */
   width: 478px;
   height: 35px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Great Vibes;
   font-size: 3.125rem;
   font-weight: 400;
@@ -1217,7 +1127,6 @@ body {
 }
 
 .doc1 {
-  /* Ласточкина Татьяна Евгеньевна */
   width: 340px;
   height: 76px;
   color: var(--white, rgba(255, 255, 255, 1));
@@ -1231,11 +1140,9 @@ body {
 }
 
 .doc1-1 {
-  /* Терапевт, хирург, стоматолог */
   width: 340px;
   height: 24px;
   color: var(--white 90%, rgba(250, 248, 247, 0.9));
-
   font-family: Onest;
   font-size: 1.125rem;
   font-weight: 300;
@@ -1250,16 +1157,13 @@ body {
   background-size: 100%;
   width: 380px;
   height: 450px;
-
   border-radius: 20px;
 }
 
 .doc2 {
-  /* Журавлев Игорь Николаевич */
   width: 360px;
   height: 76px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Onest;
   font-size: 2rem;
   font-weight: 500;
@@ -1270,11 +1174,9 @@ body {
 }
 
 .doc2-2 {
-  /* Терапевт, хирург, стоматолог */
   width: 256px;
   height: 24px;
   color: var(--white 90%, rgba(250, 248, 247, 0.9));
-
   font-family: Onest;
   font-size: 1.125rem;
   font-weight: 300;
@@ -1289,7 +1191,6 @@ body {
   background-size: 100%;
   width: 380px;
   height: 450px;
-
   border-radius: 20px;
 }
 
@@ -1297,7 +1198,6 @@ body {
   width: 360px;
   height: 76px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Onest;
   font-size: 2rem;
   font-weight: 500;
@@ -1311,7 +1211,6 @@ body {
   width: 256px;
   height: 24px;
   color: var(--white 90%, rgba(250, 248, 247, 0.9));
-
   font-family: Onest;
   font-size: 1.125rem;
   font-weight: 300;
@@ -1349,10 +1248,8 @@ body {
 }
 
 .text3 {
-  /* Frame 136 */
   width: 532px;
   height: 699px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1365,7 +1262,6 @@ body {
   width: 532px;
   height: 58px;
   color: rgba(255, 255, 255, 1);
-
   font-family: Onest;
   font-size: 3rem;
   font-weight: 700;
@@ -1376,11 +1272,9 @@ body {
 }
 
 .right-now {
-  /* прямо сейчас! */
   width: 299px;
   height: 35px;
   color: var(--white, rgba(255, 255, 255, 1));
-
   font-family: Great Vibes;
   font-size: 3.125rem;
   font-weight: 400;
@@ -1402,7 +1296,6 @@ body {
   padding: 0px 118px 20px 0px;
 }
 
-/* Кнопка в футере - ЗАПИСАТЬСЯ НА ПРИЕМ */
 .footer-appointment-btn {
   display: inline-block;
   width: 484px;
@@ -1417,14 +1310,12 @@ body {
   font-size: 1rem;
   font-weight: 700;
   text-align: center;
-
-
-  background-color: orangered;
+  background-color: rgba(231, 99, 42, 1);
   color: white;
 
 }
 
-/* Специальные стили для кнопок с акциями */
+
 .promotion3-btn {
   position: relative;
   right: -1050px;
@@ -1432,13 +1323,11 @@ body {
   height: 46px;
   top: 96px;
   opacity: 1;
-
   border: none;
   border-radius: 50%;
   font-size: 1.5rem;
   text-align: center;
   cursor: pointer;
-
   background-color: rgba(111, 140, 95, 0.5);
   color: white;
 }
@@ -1450,13 +1339,11 @@ body {
   height: 46px;
   top: 50px;
   opacity: 1;
-
   border: none;
   border-radius: 50%;
   font-size: 1.5rem;
   text-align: center;
   cursor: pointer;
-
   background-color: rgba(111, 140, 95, 1);
   color: white;
 }
@@ -1484,19 +1371,16 @@ body {
 }
 
 .inf-left {
-  /* container */
   width: 420px;
   height: 479px;
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
-  padding-left: 30px;
+  padding-left: 60px;
 }
 
 .contacts {
-  /* Frame 738001012 */
   width: 380px;
   height: 53px;
   font-family: Onest;
@@ -1518,7 +1402,6 @@ body {
   width: 73px;
   height: 12px;
   color: gray;
-
   font-family: Onest;
   font-size: 0.6rem;
   font-weight: 400;
@@ -1527,7 +1410,7 @@ body {
 }
 
 .links {
-  width: 420px;
+  width: 395px;
   height: 0px;
   font-size: 0.6rem;
   font-family: Onest;
@@ -1537,9 +1420,8 @@ body {
   justify-content: space-between;
   align-items: flex-start;
   box-sizing: border-box;
-  border-top: 1.5px solid rgba(30, 30, 30, 0.5);
+  border-top: 1.6px solid rgba(30, 30, 30, 0.3);
   padding-top: 25px;
-  padding-left: 20px;
 }
 
 a {
